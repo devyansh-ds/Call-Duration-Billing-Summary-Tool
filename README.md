@@ -30,3 +30,17 @@ The program also handles file input errors gracefully and filters out incomplete
 - String and list manipulation
 - Basic error handling (try-except)
 - CLI input/output
+
+## How to Run:
+- Place all input .txt files in the specified folder path.
+- Open the script in any Python environment or terminal.
+- Update the input_folder variable in the script if needed.
+- Run the script and enter the desired phone number when prompted.
+- View the generated billing summary in the terminal.
+
+## What I Learned:
+- Reading structured data from text files
+- Filtering and validating user data
+- Applying real-world billing logic with rates and conversions
+- Gracefully handling user input errors and file-not-found issues
+- Formatting output cleanly for terminal display
