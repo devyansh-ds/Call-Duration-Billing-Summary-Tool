@@ -16,10 +16,12 @@ The program also handles file input errors gracefully and filters out incomplete
 
 ## Input Format:
 - Each input .txt file must follow this format, where fields are separated by #:
-  - custid#fromcall#tocall#duration#status#time#type
-  - 54321#9986019198#9110336344#637#complete#02:30#std
-  - 54321#9986019198#8363738388#634#complete#02:30#isd
-  - 54321#9986019198#8363346356#755#complete#02:30#free
+```
+custid#fromcall#tocall#duration#status#time#type
+54321#9986019198#9110336344#637#complete#02:30#std
+54321#9986019198#8363738388#634#complete#02:30#isd
+54321#9986019198#8363346356#755#complete#02:30#free
+```
 - The script expects one file per user, named after the phone number (e.g., 9986019198.txt)
 - These files are stored in a folder path defined at the top of the script
 
@@ -39,6 +41,7 @@ The program also handles file input errors gracefully and filters out incomplete
 - View the generated billing summary in the terminal.
 
 ## Sample CLI Output:
+```
 ========== USER BILLING SUMMARY ==========
 Call Type | Talk Time (sec) | Bill (₹)
 ---------------------------------------------------
@@ -47,6 +50,7 @@ ISD       | 1077            | 89.75
 Free      | 809             | 0.0
 ---------------------------------------------------
 TOTAL BILL: ₹ 117.55
+```
 
 ## What I Learned:
 - Reading structured data from text files
