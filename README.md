@@ -29,7 +29,7 @@ The program also handles file input errors gracefully and filters out incomplete
 - Conditional logic (if-elif)
 - String and list manipulation
 - Basic error handling (try-except)
-- CLI input/output
+- CLI (Command Line Interface) input/output
 
 ## How to Run:
 - Place all input .txt files in the specified folder path.
@@ -37,6 +37,16 @@ The program also handles file input errors gracefully and filters out incomplete
 - Update the input_folder variable in the script if needed.
 - Run the script and enter the desired phone number when prompted.
 - View the generated billing summary in the terminal.
+
+## Sample CLI Output:
+========== USER BILLING SUMMARY ==========
+Call Type | Talk Time (sec) | Bill (₹)
+---------------------------------------------------
+STD       | 1390            | 27.8
+ISD       | 1077            | 89.75
+Free      | 809             | 0.0
+---------------------------------------------------
+TOTAL BILL: ₹ 117.55
 
 ## What I Learned:
 - Reading structured data from text files
